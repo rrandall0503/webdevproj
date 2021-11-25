@@ -26,3 +26,55 @@ li a:hover {
     background-color: #555;
     color: white;
 }
+
+/* form */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+input {
+    float: right;
+    width: 70%;
+}
+input[type="radio"] {
+    float: none;
+    width: auto;
+}
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.form {
+    width: 400px;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--green);
+    border-radius: 8px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.form-element {
+    font-weight: bolder;
+}
+
+.btn {
+    height: 40px;
+    border-style: none;
+    width: 49%;
+    border-radius: 2px;
+}
+
+.btn-primary {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.btn-secondary {
+    background-color: var(--white);
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--green);
+    color: var(--green);
+}
