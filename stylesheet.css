@@ -1,56 +1,94 @@
+body {
+    color: #555555;
+    padding-bottom: 50px;
+}
+
+#navbar {
+    font-size: larger;
+    font-weight: bolder;
+}
+
 img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-div {
-    margin-left: 25%
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
-  
-li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+    margin: 0 auto;
 }
-  
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
+
+.cat {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cat:hover {
+    background-color: white;
+}
+
+.category {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 100px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+#mainPic {
+    height: 300px;
+    width: 300px;
+    border: solid 5px teal;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* projects */
+.card {
+    margin: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px teal;
+    border-radius: 2px;
+    overflow-wrap: break-word;
+    padding: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.projectPic {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.github {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: teal;
+    padding-top: 10px;
 }
 
 /* form */
-h1 {
-    text-transform: uppercase;
+.cardHeading {
     text-align: center;
 }
+
 input {
     float: right;
     width: 70%;
 }
-input[type="radio"] {
-    float: none;
-    width: auto;
-}
-fieldset {
-    padding: 0;
-    margin: 0;
-    border: none;
-}
+
 .form {
+    margin: 0 auto;
     width: 400px;
-    border-style: solid;
-    border-width: thin;
-    border-color: var(--green);
-    border-radius: 8px;
+    border: solid 1px teal;
+    border-radius: 2px;
     padding: 10px;
     padding-bottom: 40px;
 }
@@ -66,15 +104,7 @@ fieldset {
     border-radius: 2px;
 }
 
-.btn-primary {
-    background-color: var(--green);
-    color: var(--white);
-}
-
 .btn-secondary {
-    background-color: var(--white);
     border-style: solid;
     border-width: thin;
-    border-color: var(--green);
-    color: var(--green);
 }
