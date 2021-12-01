@@ -72,6 +72,10 @@ img {
     padding-top: 20px;
 }
 
+a {
+    color: teal;
+}
+
 #exercisePic {
     width: 300px;
 }
