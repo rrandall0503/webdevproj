@@ -66,18 +66,14 @@ img {
 }
 
 .projectPic {
-    width: 200px;
-    height: 200px;
+    width: 60%;
+    height: 50%;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
 a {
     color: teal;
-}
-
-#exercisePic {
-    width: 300px;
 }
 
 .github {
@@ -106,10 +102,10 @@ textarea {
 
 .form {
     margin: 0 auto;
-    width: 400px;
+    width: 75%;
     border: solid 1px teal;
     border-radius: 2px;
-    padding: 35px;
+    padding: 5%;
     font-family: 'Architects Daughter', cursive;
 }
 
@@ -120,7 +116,7 @@ textarea {
 .btn {
     height: 40px;
     border-style: none;
-    width: 49%;
+    width: 48%;
     border-radius: 2px;
 }
 
